@@ -1,0 +1,11 @@
+#post-01 .thumbnail .image-holder{
+	background-image: url('1.jpg');
+	position: relative;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+}

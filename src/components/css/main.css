@@ -1,11 +1,45 @@
-#post-01 .thumbnail .image-holder{
-	background-image: url('1.jpg');
-	position: relative;
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    -webkit-background-size: cover;
+.mainpost_one {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.mainpost_two {
+	padding-top: 300px;
+}
+.Main{
+	float: left;
+	max-width: 60%;
+	padding-left: 30px;
+}
+.post .Thumbnail img {
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.post .post-noidung {
+	max-height: 250px;
+	width: 45%;
+	float: right;
+	padding-left: 5px;
+}
+.post .post-noidung .tieude-post h2 {
+	font-size: 18px;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    height: 60px;
+}
+.author-post h2{
+	margin: 12px 0 0;
+    padding-left: 20%;
+    font-size: inherit;
+}
+.noidung-post {
+	font-size: 10px;
+    line-height: 28px;
+    margin-top: 18px;
+    text-align: left;
 }

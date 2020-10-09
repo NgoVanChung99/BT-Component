@@ -1,0 +1,80 @@
+#wp-subscribe {
+	width: 70%;
+    margin-right: 0;
+    float: none;
+    margin-bottom: 60px;
+    clear: both;
+    padding: 20px;
+    background: #f47555;
+
+}
+#wp-subscribe h4.title {
+	font-size: 22px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+#wp-subscribe p.text {
+	margin: 15px 0;
+    opacity: .8;
+    text-align: center;
+}
+#wp-subscribe-form input.name-field, input.email-field {
+	background: #d56144;
+
+}
+#wp-subscribe-form input::-webkit-input-placeholder{
+	color: #fff;
+	background: #d56144;
+	text-align: center;
+}
+#wp-subscribe-form input[type="text"], input[type="email"], input[type="submit"]{
+    border: 1px solid #dedede;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    outline: none;
+    font-size: 12px;
+    padding: 11px 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+    font-family: 'PT Serif',serif;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: auto;
+    height: auto;
+    vertical-align: baseline;
+    line-height: normal;
+}
+#wp-subscribe-form input[type="submit"]{
+	font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #f47555;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+#wp-subscribe-form .wps-consent-wrapper label {
+	color: #fff;
+}
+#wp-subscribe p.footer-text{
+	font-size: 12px;
+    margin-top: 10px;
+    margin: 0;
+    color: #fff;
+}
+.Sidebar{
+	width: 29.06%;
+    float: right;
+    padding-right: 10px;
+    padding-top: 30px;
+}
